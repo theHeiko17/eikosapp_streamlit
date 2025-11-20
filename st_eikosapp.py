@@ -5,6 +5,7 @@ import pandas as pd
 def renderPage():
     dashboard_page = st.Page("pages/dashboard.py", title="Dashboard", icon=":material/table:")
     about_page =  st.Page("pages/about.py", title="About", icon=":material/contact_page:")
+    
     pg = st.navigation(
                 {
                     "My Eikos": [dashboard_page],
